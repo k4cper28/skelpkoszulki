@@ -1,0 +1,149 @@
+.navbar {
+    background: linear-gradient(to right bottom, var(--dark), var(--blue));
+    color: white;
+    font-size: 20px;
+    font-family: Impact, fantasy;
+}
+
+.menu_bar {
+    display: flex;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_bar a {
+    margin-right: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.login_navbar a {
+    margin-right: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+
+.login_navbar {
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.logo_navbar {
+    display: flex;
+}
+
+a:hover {
+    color: #149998;
+}
+
+#logout {
+    margin-right: 0;
+}
+
+:root {
+    --blue: #111827;
+    --dark: #1b1b1b;
+}
+
+body {
+    background: #111827;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right top, var(--dark), var(--blue));
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    width: 86vw;
+    height: 76vh;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background: linear-gradient(to right top,rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+}
+
+#profile_navbar ul{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+}
+
+#profile_navbar a {
+
+    margin-right: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    font-family: Impact, fantasy;
+
+}
+
+#profile_navbar li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+#profile_navbar {
+    border-radius: 20px;
+    border: 2px solid #06101a;
+    align-self: flex-start;
+}
+
+#profile_navbar a:hover {
+    color: #149998;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#profile_navbar {
+    background-color: #1f2937;
+    margin: 50px 20px 20px 20px;
+
+}
+
+#edit {
+    color: white;
+    background-color: #1f2937;
+    border-radius: 20px;
+    border: 2px solid #06101a;
+    padding: 30px 30px 30px 30px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#update-button {
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background: #1f2937;
+    /*border: solid 1px #06101a;*/
+}
+
+
+
